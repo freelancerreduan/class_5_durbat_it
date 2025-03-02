@@ -93,11 +93,52 @@
 }
 
 
+/* Class 6 */
+.skill_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill{
+    text-decoration: none;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.shadow_area{
+    box-shadow: 5px 13px 29px gray;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px;
+}
+.contact_item_area{
+    width: 50%;
+    /* background-color: antiquewhite; */
+    margin: auto;
+}
+
+.contact_item{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-style{
+    margin-bottom: 20px;
+    display: block;
+    background-color: #0073e6;
+    color: white;
+    width: 100%;
+}
 
 
-
-
-
-
-
-
+.footer{
+    padding: 20px;
+    background-color: #333;
+}
